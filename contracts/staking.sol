@@ -6,6 +6,7 @@ pragma solidity 0.8.17;
 
 contract staking{
     IERC20 public stakingToken;
+    
     constructor(address tokenAddress){
         stakingToken = IERC20(tokenAddress);
     }
